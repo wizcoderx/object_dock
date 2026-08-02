@@ -1,0 +1,25 @@
+# ---------- Database ----------
+# SQLite DB (auto-created at runtime, contains transactional data)
+data/oss_tracker.db
+
+# ---------- Storage ----------
+# Default OSS storage folder (uploaded files live here)
+oss_store/
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ---------- Packaging ----------
+*.egg-info/
+*.egg
+dist/
+build/
+
+# ---------- Testing ----------
+.pytest_cache/
+
+# ---------- IDE ----------
+.vscode/
+.idea/
